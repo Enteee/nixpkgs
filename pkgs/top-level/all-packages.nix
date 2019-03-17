@@ -18198,6 +18198,8 @@ in
 
   keepass-keepassrpc = callPackage ../applications/misc/keepass-plugins/keepassrpc { };
 
+  keepass-keepassotpkeyprov = callPackage ../applications/misc/keepass-plugins/keepassotpkeyprov { };
+
   exrdisplay = callPackage ../applications/graphics/exrdisplay { };
 
   exrtools = callPackage ../applications/graphics/exrtools { };
